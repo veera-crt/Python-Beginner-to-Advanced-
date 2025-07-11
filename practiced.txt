@@ -1,0 +1,54 @@
+--> https://veerapandiblog.blogspot.com/2025/07/day-1-of-100-days-of-code-python_10.html
+
+Printing to the Console in Python
+Introduction to Programming Setup
+Hopefully, you have already set up everything to be ready for the Day 1 tasks and can see exactly what is shown here. If you are unsure or do not have access, please refer back to the previous lesson where the steps to download and obtain the latest version of the Curriculum Exercises on PyCharm were demonstrated. Ensure you complete that before proceeding so that we all start from the same point and see the same content.
+
+Purpose of Learning to Program
+Remember, the main reason we are learning to program is to tell the computer what to do and have it follow our commands. Let's begin by instructing the computer to perform an action by writing our first line of code.
+
+Writing Your First Print Statement
+We will create a print function by writing the keyword print in lowercase followed by parentheses (). Inside these parentheses, we specify what we want the computer to print. For example, writing the classic phrase "Hello world!" inside the parentheses will output that text to the console. Once ready, click Run to execute the code.
+
+After running, the console will display the text you instructed it to print. When the process finishes successfully, it indicates this with the message "Process finished with exit code 0," meaning everything ran without issues.
+
+Understanding the Console Output Area
+At the top of the output area, you will see the location of the file that was executed, such as the Day 1 task file. This location changes as you work on different files. Below that, the console shows the result of your command, and at the very end, it reports whether the process finished successfully or if there were errors.
+
+To ensure you are always running the current file, select "Current File" from the dropdown menu. This way, pressing the play button will execute the code in the output area. Keyboard shortcuts are also available; for example, on a Mac, you can press Control + R to run the code.
+
+How the Print Command Works
+The print keyword followed by parentheses tells the computer to output whatever is inside the parentheses. The content inside can be text or other data. When the code runs, the computer executes this command and displays the specified output.
+
+Using Strings in Print Statements
+Notice that the text "Hello world!" is enclosed in double quotation marks. These quotes indicate to the computer that the content inside is a string, which means it is text and not code to be executed. Strings are sequences of characters, similar to a pearl necklace, where the quotes mark the beginning and end of the string.
+
+Importance of Matching Quotes
+Be careful to include both opening and closing quotation marks. If you omit the closing quote, the code editor will change the color of the text and parentheses, signaling a problem. This visual cue helps identify syntax errors before running the code.
+
+If you run code with a missing closing quote, it will result in a SyntaxError, which may look confusing at first. However, all programmers make such mistakes, and the key skill is learning how to identify and fix them.
+
+Debugging Errors
+When an error occurs, copy the error message and search for it online, often leading to helpful resources like Stack Overflow. This community-driven site provides solutions and explanations for common programming errors.
+
+For example, a missing double quote error can be resolved by adding the missing quote at the end of the string. Becoming familiar with syntax highlighting and error messages will improve your ability to debug code efficiently.
+
+Syntax Highlighting and Editor Assistance
+Code editors like PyCharm provide syntax highlighting, which colors code elements differently to indicate their type. If a string is missing a closing quote, the editor highlights the entire string in one color, signaling an issue. Additionally, the editor underlines errors and provides tooltips with suggestions to fix them.
+
+Understanding Warnings
+Besides errors, editors also show warnings, often in yellow. For example, PEP 8, the Python style guide, recommends having a new line at the end of the file. While not an error, following such guidelines improves code readability and style.
+
+Adding a new line at the end of your file removes the warning and ensures your code looks good both syntactically and stylistically. This means your code is correct and follows best practices.
+
+Summary and Next Steps
+Now that you have written your first print statement and understand how to interpret errors and warnings, you are ready to practice. In the next lesson, you will be challenged to write your own print statements to reinforce what you have learned.
+
+Key Takeaways
+The print() function in Python outputs text or other data to the console.
+Strings must be enclosed in matching quotation marks to be recognized correctly.
+Syntax highlighting and error messages help identify and fix coding mistakes.
+Following coding standards like PEP 8 improves code readability and style.
+
+
+
