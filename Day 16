@@ -1,1 +1,37 @@
-https://www.linkedin.com/posts/veerapandi-g-342388292_100daysofcode-100daysofcode-python-activity-7359576152996270080-fcQO?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEbkA-IBIJCN--55PtV7Axn3r4WmVHx53ms
+Cybersecurity Student | Governance, Risk & Compliance (GRC) | Risk Assessment & Management | AI & Security Enthusiast | Content Creator
+🚀 Day 16 of hashtag#100DaysOfCode
+After taking a short break from OOP, I’m back on track and continuing my journey! 💻✨
+I was stuck for almost a week because of OOP concepts — but that challenge really opened my eyes to how much deeper I need to go in coding. 🔑
+Today, I worked on building a simple math operations module in Python:
+🔹 Created functions for addition, subtraction, multiplication & division
+🔹 Imported and used these functions in a separate main.py file
+🔹 Tested them successfully (results showing up in the terminal ✅)
+It feels great to see things running smoothly — and I must thank my AI Coach John, for guiding me through these concepts and keeping me consistent. 🙌
+Learning never stops, and every small step counts towards becoming a better developer. 💡
+hashtag#100DaysOfCode hashtag#Python hashtag#LearningInPublic hashtag#AI hashtag#CodingJourney AI Coach John
+
+main.py
+
+import pandas_math as pdm
+s=pdm.multiply(9,9)
+print(s)
+m=pdm.divide(72,2)
+print(m)
+
+pandas_math.py
+
+def addition(a,b):
+    return a+b
+
+def subtraction(a,b):
+    return a-b
+
+def multiply(x,y):
+    return x*y
+
+def divide(x,y):
+    return x/y
+
+try now! 
+
+thankyou ai coach john
