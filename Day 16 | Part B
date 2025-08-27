@@ -1,0 +1,52 @@
+🚀 Day 16 hashtag#100DaysOfCode Python Journey
+Part B - Today, I continued my learning in Object-Oriented Programming (OOP) with Python.
+ I practiced inheritance by creating a base class School and extending it into two subclasses:
+Teacher → can assign tasks
+ Student → can submit tasks
+This helped me clearly understand how:
+The base class contains common methods (login, view).
+The child classes inherit those methods and also add their own unique functionality.
+Example Output from my code:
+pandi has logged in today 
+pandi has viewed the Data 
+pandi has submitted the assignment 
+Key Takeaway:
+ Inheritance makes code reusable, organized, and more real-world relatable (just like how a school has both teachers and students with different roles but a common base).
+hashtag#Python hashtag#OOP hashtag#CodingJourney hashtag#100DaysOfCode hashtag#Learning
+
+
+
+main.py
+
+#start here
+class School:
+    
+    def __init__(self,a):
+        self.a = a
+    
+    def login(self) :
+        print(f"{self.a} has logged in today")
+    
+    def view(self):
+        print(f"{self.a} has viewed the Data")
+        
+class Teacher(School):
+    def assigned(self):
+        print(f"{self.a} has assigned the assignment")
+        
+        
+class Student(School):
+    def submit_task(self):
+        print(f"{self.a} has submitted the assignment")
+        
+    
+        
+ 
+veera = Teacher("veera")
+pandi = Student("pandi")
+     
+veera.assigned()
+# end here
+
+
+
