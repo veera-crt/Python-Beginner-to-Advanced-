@@ -1,1 +1,50 @@
-https://www.linkedin.com/posts/veerapandi-g-342388292_100daysofcode-100daysofcode-day16-activity-7359576954016067584-QSKU?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEbkA-IBIJCN--55PtV7Axn3r4WmVHx53ms
+
+🚀 Day 16 of #100DaysOfCode 
+Part A | Python | AI Coach John
+Today, I explored the basics of Object-Oriented Programming (OOPs).
+Before diving into classes and objects, I first practiced writing normal functions for a simple use case:
+Logging in a user
+Viewing data
+Submitting assignments (Student role)
+Assigning assignments (Teacher role)
+This helped me understand the difference between functional programming and OOPs, and why OOP makes code more organized, reusable, and scalable.
+Key takeaway:
+Starting with simple functions builds a strong foundation before moving into OOP concepts like classes, objects, and methods.
+Excited to rewrite the same logic tomorrow using OOP principles!
+Thankyou AI Coach John sir! 
+
+
+
+
+# Today iam going to learn the oops ; 
+#1st iam going to do the normal function and than do the oops based methods!
+
+def login(user_date) :
+    print(f"{user_data["name"]} has logged in today")
+    
+def view(user_data):
+    print(f"{user_data["name"]} has viewed the Data")
+    
+def submit(user_data) :
+    if user_data["role"] == "Student" :
+        print(f"{user_data["name"]} has submit the assignment")
+    else:
+        print("Teachers do not want to submit the assignment")
+        
+def assigned(user_data) :
+    if user_data["role"] == "Teacher" :
+        print(f"{user_data["name"]} has assigned the assignment")
+    else:
+        print("Student do not want to assign the assignment")
+
+#user_data= {"name" : "Veera", "role" : "Student"}
+user_data= {"name" : "Pandi", "role" : "Teacher"}
+
+login(user_data)
+view(user_data)
+submit(user_data)
+assigned(user_data)
+
+
+
+
