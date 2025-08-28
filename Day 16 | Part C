@@ -1,0 +1,34 @@
+class SecureData:
+    def __init__(self, name, atm_pin):
+        self.name = name
+        self.__atm_pin = atm_pin 
+        self.__authenticated = False 
+
+    def get_pin(self, attempt):
+        if attempt == self.__atm_pin:
+            self.__authenticated = True
+            return "PIN Verified!"
+        else:
+            self.__authenticated = False
+            return "Wrong PIN"
+
+    def money_deposit(self):
+        if self.__authenticated == True:
+            return f"{self.name} has deposited cash"
+        return "Access Denied! Enter PIN first."
+
+    def money_withdrawal(self):
+        if self.__authenticated == True:
+            return f"{self.name} has withdrawn cash"
+        return "Access Denied! Enter PIN first."
+
+
+
+Pandi = SecureData("Veerapandi",3356)
+print(Pandi.money_deposit())
+print(Pandi.get_pin(3356))
+print(Pandi.money_deposit())
+     
+
+# refer : https://www.linkedin.com/posts/veerapandi-g-342388292_100daysofcode-python-learningjourney-activity-7366882099632492545-EkSO?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEbkA-IBIJCN--55PtV7Axn3r4WmVHx53ms
+# Recource : https://youtu.be/4wOZ0h1W5n8?si=Iwcy1jKRHl8Mgx0w
